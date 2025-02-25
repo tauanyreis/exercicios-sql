@@ -72,7 +72,7 @@ cursor = conexao.cursor()
 
 # b) Calcule o saldo médio dos clientes.
 
-# dados = cursor.execute('SELECT AVG=saldo) FROM clientes')
+# dados = cursor.execute('SELECT AVG(saldo) FROM clientes')
 
 
 # c)Encontre o cliente com o saldo máximo.
